@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<robot name="assembly_1">
+  <link name="cam_holder">
+    <inertial>
+      <mass value="64895.2" />
+      <origin xyz="-1.43868e-16 -2.5 -1.50696" rpy="0 0 0" />
+      <inertia ixx="456114" ixy="7.70863e-12" ixz="2.40456e-11" iyy="324483" iyz="-2.88116e-11" izz="401412" />
+    </inertial>
+    <visual>
+      <origin xyz="0 -2.5 -7.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+      <material name="holder_grey">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -2.5 -7.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="cam_holder_1">
+    <inertial>
+      <mass value="64895.2" />
+      <origin xyz="-1.43868e-16 2.5 -1.50696" rpy="0 0 0" />
+      <inertia ixx="456114" ixy="7.70863e-12" ixz="2.40456e-11" iyy="324483" iyz="-2.88116e-11" izz="401412" />
+    </inertial>
+    <visual>
+      <origin xyz="0 2.5 -7.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+      <material name="holder_grey">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 2.5 -7.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="cam_holder_2">
+    <inertial>
+      <mass value="64895.2" />
+      <origin xyz="-1.43868e-16 2.5 -1.50696" rpy="0 0 0" />
+      <inertia ixx="456114" ixy="7.70863e-12" ixz="2.40456e-11" iyy="324483" iyz="-2.88116e-11" izz="401412" />
+    </inertial>
+    <visual>
+      <origin xyz="0 2.5 -7.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+      <material name="holder_grey">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 2.5 -7.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="cam_holder_3">
+    <inertial>
+      <mass value="64895.2" />
+      <origin xyz="-1.43868e-16 -2.5 1.49304" rpy="0 0 0" />
+      <inertia ixx="456114" ixy="7.70863e-12" ixz="2.40456e-11" iyy="324483" iyz="-2.88116e-11" izz="401412" />
+    </inertial>
+    <visual>
+      <origin xyz="0 -2.5 -4.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+      <material name="holder_grey">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -2.5 -4.125" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/cam_holder.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="root" />
+  <link name="tub">
+    <inertial>
+      <mass value="7.31035e+06" />
+      <origin xyz="-2.89248e-14 0 4.44612" rpy="0 0 0" />
+      <inertia ixx="1.28515e+10" ixy="1.09711e-05" ixz="-1.90712e-06" iyy="1.28515e+10" iyz="-1.22469e-07" izz="2.56265e+10" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/tub.stl" scale="1 1 1" />
+      </geometry>
+      <material name="tub_blue">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/tub.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="yellowbar">
+    <inertial>
+      <mass value="1.78705e+06" />
+      <origin xyz="55 1.25484e-19 1.265" rpy="0 0 0" />
+      <inertia ixx="5.70279e+06" ixy="-5.56213e-10" ixz="2.33217e-09" iyy="1.90392e+09" iyz="5.44921e-10" izz="1.9061e+09" />
+    </inertial>
+    <visual>
+      <origin xyz="55 0 -4.36" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/yellowbar.stl" scale="1 1 1" />
+      </geometry>
+      <material name="bar_orange">
+        <color rgba="0.972549 0.529412 0.003922 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="55 0 -4.36" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/yellowbar.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="yellowbar_1">
+    <inertial>
+      <mass value="1.78705e+06" />
+      <origin xyz="-50 1.25484e-19 -1.265" rpy="0 0 0" />
+      <inertia ixx="5.70279e+06" ixy="-5.56213e-10" ixz="2.33217e-09" iyy="1.90392e+09" iyz="5.44921e-10" izz="1.9061e+09" />
+    </inertial>
+    <visual>
+      <origin xyz="-50 0 -6.89" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/yellowbar.stl" scale="1 1 1" />
+      </geometry>
+      <material name="bar_orange">
+        <color rgba="0.972549 0.529412 0.003922 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-50 0 -6.89" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://nvidia_inventory_swarm/meshes/yellowbar.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="fixed_node_to_root_joint" type="fixed">
+    <origin xyz="-8.87514 -2.5239 0.455244" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <parent link="root" />
+    <child link="tub" />
+  </joint>
+  <joint name="slider_1" type="prismatic">
+    <origin xyz="-55 -0.5 4.36" rpy="0 0 -7.10543e-17" />
+    <axis xyz="0 -1 0" />
+    <parent link="tub" />
+    <child link="yellowbar" />
+    <limit effort="1" velocity="1" lower="0" upper="46.5" />
+  </joint>
+  <joint name="slider_2" type="prismatic">
+    <origin xyz="57.5 -2.5 2.765" rpy="2.22829e-65 1.82461e-48 -1.2326e-32" />
+    <axis xyz="1 0 0" />
+    <parent link="yellowbar" />
+    <child link="cam_holder_1" />
+    <limit effort="1" velocity="1" lower="0" upper="44" />
+  </joint>
+  <joint name="slider_3" type="prismatic">
+    <origin xyz="52.5 2.5 2.765" rpy="0 -1.49214e-94 0" />
+    <axis xyz="1 0 0" />
+    <parent link="yellowbar" />
+    <child link="cam_holder" />
+    <limit effort="1" velocity="1" lower="-44" upper="0" />
+  </joint>
+  <joint name="slider_4" type="prismatic">
+    <origin xyz="50 6 6.89" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <parent link="tub" />
+    <child link="yellowbar_1" />
+    <limit effort="1" velocity="1" lower="0" upper="41" />
+  </joint>
+  <joint name="slider_5" type="prismatic">
+    <origin xyz="-47.5 2.5 -2.765" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <parent link="yellowbar_1" />
+    <child link="cam_holder_3" />
+    <limit effort="1" velocity="1" lower="0" upper="44" />
+  </joint>
+  <joint name="slider_6" type="prismatic">
+    <origin xyz="-52.5 -2.5 0.235" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <parent link="yellowbar_1" />
+    <child link="cam_holder_2" />
+    <limit effort="1" velocity="1" lower="-44" upper="0" />
+  </joint>
+  <gazebo reference="cam_holder_1">
+    <sensor name="camera_1_sensor" type="camera">
+      <pose>0 0 0 0 0 0</pose>
+      <always_on>true</always_on>
+      <update_rate>10</update_rate>
+      <visualize>true</visualize>
+      <topic>camera_1/image</topic>
+      <camera>
+        <horizontal_fov>1.5707963</horizontal_fov>
+        <image>
+          <width>1920</width>
+          <height>1080</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.05</near>
+          <far>100</far>
+        </clip>
+      </camera>
+    </sensor>
+  </gazebo>
+  <gazebo reference="cam_holder_3">
+    <sensor name="camera_2_sensor" type="camera">
+      <pose>0 0 0 0 0 0</pose>
+      <always_on>true</always_on>
+      <update_rate>10</update_rate>
+      <visualize>true</visualize>
+      <topic>camera_2/image</topic>
+      <camera>
+        <horizontal_fov>1.5707963</horizontal_fov>
+        <image>
+          <width>1920</width>
+          <height>1080</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.05</near>
+          <far>100</far>
+        </clip>
+      </camera>
+    </sensor>
+  </gazebo>
+  <gazebo reference="cam_holder">
+    <sensor name="camera_3_sensor" type="camera">
+      <pose>0 0 0 0 0 0</pose>
+      <always_on>true</always_on>
+      <update_rate>10</update_rate>
+      <visualize>true</visualize>
+      <topic>camera_3/image</topic>
+      <camera>
+        <horizontal_fov>1.5707963</horizontal_fov>
+        <image>
+          <width>1920</width>
+          <height>1080</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.05</near>
+          <far>100</far>
+        </clip>
+      </camera>
+    </sensor>
+  </gazebo>
+  <gazebo reference="cam_holder_2">
+    <sensor name="camera_4_sensor" type="camera">
+      <pose>0 0 0 0 0 0</pose>
+      <always_on>true</always_on>
+      <update_rate>10</update_rate>
+      <visualize>true</visualize>
+      <topic>camera_4/image</topic>
+      <camera>
+        <horizontal_fov>1.5707963</horizontal_fov>
+        <image>
+          <width>1920</width>
+          <height>1080</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.05</near>
+          <far>100</far>
+        </clip>
+      </camera>
+    </sensor>
+  </gazebo>
+</robot>

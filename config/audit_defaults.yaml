@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+    waypoints_per_robot: 20
+    linear_speed: 0.8
+    position_tolerance: 0.25
+    control_rate_hz: 10.0
+    request_timeout_sec: 12.0
+    api_base_url: "https://integrate.api.nvidia.com/v1"
+    model: "nvidia/nemotron-nano-12b-v2-vl"
+    mock_counts: "Green: 0, Grey: 0, Black: 0, Silver: 0"
